@@ -140,7 +140,7 @@ margin-top: 66px;
     top: 0;
     right: 0;
     width: 40%; 
-    height: 100%;
+    height: 95%;
     background-color:#FFF8F3;
     z-index: -1; 
 }
@@ -161,4 +161,132 @@ margin-top: 66px;
 header{
     display: flex;
     
+}
+/* main-sectin */
+
+
+.div-5 {
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    padding: 120px 90px;
+    margin-top: 130px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    
+}
+
+.about-me {
+    border: 1px solid #000;   
+    padding: 40px 40px;
+    max-width: 800px;         
+    text-align: center;
+    border-radius: 10px;
+    background: white;  
+    /* margin-top: 50px;     */
+}
+
+.H4 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+   margin-bottom: 30px;
+}
+
+.Paragraph {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.extra {
+    display: flex;
+    justify-content: space-between; 
+    gap: 20px;
+    flex-wrap: wrap;  
+    font-size: 14px;
+    text-align: left;  
+    
+}
+
+.extra div {
+    flex: 1; /* make them equal width */
+    display: flex;
+    flex-direction: column;
+}
+
+.extra span {
+    display: block;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+/* What I do Section */
+.what-i-do-section {
+    padding: 130px 90px;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section-title {
+    font-family: "Open Sans";
+    font-size: 35px;
+    font-weight: 700;
+    color: #181818;
+    margin-bottom: 30px;
+}
+
+.section-description {
+    font-family: "Open Sans";
+    font-size: 18px;
+    color: #757575;
+    line-height: 30px;
+    margin-bottom: 50px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 24px;
+    margin-top: 50px;
+}
+
+.skill-card {
+    background: white;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    text-align: left;
+    transition: transform 0.3s ease;
+}
+
+.skill-card:hover {
+    transform: translateY(-5px);
+}
+
+.skill-icon {
+    width: 44px;
+    height: 44px;
+    margin-bottom: 30px;
+}
+
+.skill-title {
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 700;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+.skill-description {
+    font-family: "Open Sans";
+    font-size: 16px;
+    color: #757575;
+    line-height: 28px;
 }
